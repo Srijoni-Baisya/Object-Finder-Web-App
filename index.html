@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object Finder</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body background="bg1.jpg"> <!--add a background image-->
+        <center>
+            <!--heading and note on the app-->
+            <h2 class="btn btn-danger heading">Object Finder Web App</h2>
+            <br>
+            <h3 class="btn btn-success note">Enter the name of the object which you want to search. If you show the same object in front of the webcam, Coco-ssd model will detect it and the system will speak out the name of the object. If you show any other object, it will only be detected.</h3>
+            <br>
+            <!--input tag to take the name of the object that is to be searched-->
+            <input class="form-control" id="input" type="text" placeholder="Name of the required object">
+            <br>
+            <!--start button to start the object detection-->
+            <button class="btn btn-danger" onclick="start()" id="start">Start</button>
+            <br>
+            <!--status of the model-->
+            <h3 class="btn btn-warning" id="status"></h3>
+            <!--status - if the object has been detected-->
+            <h3 class="btn btn-primary" id="object_detected"></h3>
+        </center>
+
+        <div class="copy_right">
+            Developed By : Srijoni Baisya
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html> 

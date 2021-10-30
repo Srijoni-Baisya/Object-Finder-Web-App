@@ -1,0 +1,52 @@
+body{
+    background-size: cover;
+    font-family: 'Noto Serif', serif;
+}
+
+.heading{
+    width: 100%;
+    margin: 0;
+    font-size: 25px;
+    box-shadow: 5px 5px 10px white;
+}
+
+.note{
+    width: 80%;
+    white-space: pre-line;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px white;
+    border: 5px double black;
+}
+
+#input{
+    width: 50%;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px white;
+    margin-top: 15px;
+}
+
+#start, #status, #object_detected{
+    font-size: 18px;
+    box-shadow: 5px 5px 10px white;
+}
+
+.copy_right{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    line-height: 2.5;
+    background-color: rgb(18, 18, 32);
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+}
+
+canvas{
+    border: 5px solid rgb(243, 253, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+    margin: 10px;
+    background-color: lightpink;
+}
