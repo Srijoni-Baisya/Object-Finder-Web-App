@@ -23,10 +23,16 @@ body{
     width: 50%;
     font-size: 18px;
     box-shadow: 5px 5px 5px white;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
-#start, #status, #object_detected{
+#status, #object_detected{
+    font-size: 18px;
+    box-shadow: 5px 5px 10px white;
+}
+
+#start{
+    margin-top: 10px;
     font-size: 18px;
     box-shadow: 5px 5px 10px white;
 }
@@ -44,9 +50,10 @@ body{
 }
 
 canvas{
-    border: 5px solid rgb(243, 253, 255);
+    border: 10px double black;
     border-radius: 10px;
     box-shadow: 5px 5px 10px white;
     margin: 10px;
     background-color: lightpink;
+    margin-top: 310px;
 }
